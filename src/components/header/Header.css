@@ -1,0 +1,116 @@
+.header{
+    background-color:#003580;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+.header1{
+    background-color:#003580;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.headercontainer{
+    width: 1024px;
+    margin: 10px;
+}
+.headerlist{
+    display: flex;
+    gap: 20px;
+}
+.headerListItem{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+.headeractive{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 25px;
+}
+.headeractive1{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+.headerDesc{
+    margin-bottom: 20px;
+}
+.headerTitle{
+    font-size: 50px;
+    font-weight: 1000;
+    
+}
+.headerdesc{
+    display: block;
+    margin: 1px;
+}
+.headerDesc{
+    font-size: 18px;
+
+}
+.headerBtn{
+    background-color: #0071c2;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 5px 0px 10px 0px;
+    cursor: pointer;
+}
+.headerSearch{
+    height: 30px;
+  background-color: white;
+  border: 3px solid #febb02;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-radius: 5px;
+  position: absolute;
+  top: 375px;
+  width: 100%;
+  max-width: 1024px;
+}
+.headerIcon,.headerSearchtext{
+    color: lightgray;
+    cursor: pointer;
+}
+.headerSearchItem{
+    display: flex;
+    justify-content: center;
+     gap:10px;
+}
+.headerserachInput{
+    border: none;
+    outline: none;
+}
+.date{
+    position: absolute;
+    top:57px;
+    left: 280px;
+    z-index: 2;
+}
+.options{
+    z-index:99;
+    position: absolute;
+    top:60px;
+    right: 150px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(90, 86, 86);
+}
+.optionitem{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    gap:10px
+}
+.optionTitle,.optionCounterspan,.optionCounterbtn{
+    margin: 5px;
+}
